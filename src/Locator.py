@@ -10,6 +10,7 @@ def getinfo():
     res.set(location)
  
 master = Tk()
+master.title("Country Identifier")
 master.configure(bg = 'light grey')
 
 place_res = StringVar();
