@@ -11,21 +11,21 @@ def getinfo():
  
 master = Tk()
 master.title("Country Identifier")
-master.configure(bg = 'light grey')
+master.configure(bg = 'silver')
 
 place_res = StringVar();
 res = StringVar(); 
 Label(master, text = "Enter location:" ,
-      bg = "light grey").grid(row = 0, sticky = W)
+      bg = "silver").grid(row = 0, sticky = W)
 Label(master, text = "Location:" ,
-      bg = "light grey").grid(row = 1, sticky = W)
+      bg = "silver").grid(row = 1, sticky = W)
 Label(master, text = "Country address :" ,
-      bg = "light grey").grid(row = 2, sticky = W)
+      bg = "silver").grid(row = 2, sticky = W)
  
 Label(master, text = "", textvariable = place_res,
-      bg = "light grey").grid(row = 1, column = 1, sticky = W)
+      bg = "silver").grid(row = 1, column = 1, sticky = W)
 Label(master, text = "", textvariable = res,
-      bg = "light grey").grid(row = 2, column = 1, sticky = W)
+      bg = "silver").grid(row = 2, column = 1, sticky = W)
  
 e = Entry(master)
 e.grid(row = 0, column = 1)
