@@ -2,7 +2,7 @@
 
 ## About
 
-A Python GUI application to search a country from an inputted state or city.
+A Python GUI application to search a country from an inputted state, city, or locality.
 
 ## Prerequisites
 
